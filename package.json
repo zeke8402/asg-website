@@ -4,34 +4,35 @@
   "description": "Website for Acadiana Software Group",
   "version": "1.0.0",
   "dependencies": {
-    "@types/react-google-recaptcha": "^1.0.0",
-    "babel-plugin-styled-components": "^1.10.0",
-    "date-fns": "^1.30.1",
-    "gatsby": "^2.32.0",
-    "gatsby-image": "^2.0.29",
-    "gatsby-plugin-manifest": "^2.0.17",
-    "gatsby-plugin-offline": "^2.0.24",
-    "gatsby-plugin-react-helmet": "^3.0.6",
-    "gatsby-plugin-sharp": "^2.0.20",
-    "gatsby-plugin-styled-components": "^3.0.6",
-    "gatsby-plugin-typescript": "^2.0.8",
-    "gatsby-plugin-typography": "^2.2.7",
-    "gatsby-source-filesystem": "^2.0.20",
-    "gatsby-transformer-remark": "^2.3.7",
-    "gatsby-transformer-sharp": "^2.1.13",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
+    "@types/react-google-recaptcha": "^2.1.9",
+    "babel-plugin-styled-components": "^2.1.4",
+    "date-fns": "^4.1.0",
+    "gatsby": "^5.16.1",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-image": "^3.16.0",
+    "gatsby-plugin-manifest": "^5.16.0",
+    "gatsby-plugin-offline": "^6.16.0",
+    "gatsby-plugin-react-helmet": "^6.16.0",
+    "gatsby-plugin-sharp": "^5.16.0",
+    "gatsby-plugin-styled-components": "^6.16.0",
+    "gatsby-plugin-typescript": "^5.16.0",
+    "gatsby-plugin-typography": "^5.16.0",
+    "gatsby-source-filesystem": "^5.16.0",
+    "gatsby-transformer-remark": "^6.16.0",
+    "gatsby-transformer-sharp": "^5.16.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-ga": "^2.5.7",
     "react-google-recaptcha": "^1.0.5",
-    "react-helmet": "^5.2.0",
-    "react-modal": "^3.8.1",
+    "react-helmet": "^6.1.0",
+    "react-modal": "^3.16.3",
     "react-typography": "^0.16.18",
     "styled-components": "^5.3.5",
-    "tslint": "^5.13.1",
-    "typescript": "^3.3.3333",
+    "tslint": "^6.1.3",
+    "typescript": "^5.7.3",
     "typography": "^0.16.18",
-    "wretch": "^1.5.0"
+    "wretch": "^2.11.0"
   },
   "keywords": [
     "gatsby"
@@ -41,16 +42,25 @@
     "build-gatsby": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "typecheck": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/stevenmusumeche/asg-website"
   },
   "devDependencies": {
-    "@types/react-helmet": "^5.0.8",
-    "@types/react-modal": "^3.8.1",
-    "@types/styled-components": "^4.1.10",
-    "@types/typography": "^0.16.2"
-  }
+    "@babel/core": "^7.26.0",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@types/react-helmet": "^6.1.11",
+    "@types/react-modal": "^3.16.3",
+    "@types/styled-components": "^5.1.36",
+    "@types/typography": "^0.16.8",
+    "react-is": "^18.3.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "yarn@4.18.0"
 }

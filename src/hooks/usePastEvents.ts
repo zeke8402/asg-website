@@ -4,7 +4,7 @@ export const usePastEvents = () => {
   const data: QueryData = useStaticQuery(graphql`
     {
       allMarkdownRemark(
-        sort: { fields: frontmatter___date, order: DESC }
+        sort: { frontmatter: { date: DESC } }
         limit: 24
       ) {
         edges {

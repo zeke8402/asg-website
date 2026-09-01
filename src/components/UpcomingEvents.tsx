@@ -99,7 +99,7 @@ function renderEvents(events: ASGEvent[]) {
             </a>
           </sup>
         </EventName>
-        <EventDate>{format(startTime, "dddd, MMMM D")}</EventDate>
+        <EventDate>{format(startTime, "EEEE, MMMM d")}</EventDate>
         <EventLocation
           href={`https://www.google.com/maps/search/?api=1&query=${encodeURI(
             event.location

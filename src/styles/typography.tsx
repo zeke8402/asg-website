@@ -7,7 +7,7 @@ import React from "react";
 import styled, { createGlobalStyle } from "styled-components";
 import colors from "./colors";
 
-import GatsbyLink from "gatsby-link";
+import { Link as GatsbyLink } from "gatsby";
 
 export const GlobalStyle = createGlobalStyle`
   html {
